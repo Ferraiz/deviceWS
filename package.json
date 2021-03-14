@@ -1,0 +1,22 @@
+{
+  "name": "devicews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ferraiz/deviceWS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ferraiz/deviceWS/issues"
+  },
+  "homepage": "https://github.com/Ferraiz/deviceWS#readme",
+  "dependencies": {
+    "ws": "^6.2.1"
+  }
+}
