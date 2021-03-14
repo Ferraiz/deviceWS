@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 
-const baseUrl = process.env.BASE_WS_URL || 'ws://localhost:3200/';
+const baseUrl = process.env.BASE_WS_URL || 'ws://localhost:3200/chargers/';
 const deviceId = process.env.DEVICE_ID || 'wABCD';
 const ws = new WebSocket(baseUrl + deviceId);
 
